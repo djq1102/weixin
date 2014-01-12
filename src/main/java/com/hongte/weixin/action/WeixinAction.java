@@ -1,15 +1,16 @@
 package com.hongte.weixin.action;
 
-import java.io.PrintWriter;
-import java.util.Date;
-
 import org.apache.log4j.Logger;
-import org.apache.struts2.ServletActionContext;
 
 import com.hongte.weixin.message.resp.TextMessage;
 import com.hongte.weixin.message.util.MessageUtil;
 
 public class WeixinAction extends BaseAction{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private static Logger log = Logger.getLogger(WeixinAction.class);
 	
 	private  String signature;

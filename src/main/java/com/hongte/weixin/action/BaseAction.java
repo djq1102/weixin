@@ -12,7 +12,6 @@ import javax.servlet.http.HttpSession;
 import org.apache.log4j.Logger;
 import org.apache.struts2.ServletActionContext;
 
-import com.hongte.weixin.message.util.MessageUtil;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class BaseAction extends ActionSupport{
