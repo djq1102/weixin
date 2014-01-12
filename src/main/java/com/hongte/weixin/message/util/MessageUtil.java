@@ -12,10 +12,10 @@ import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import com.hongte.weixin.message.resp.TextMessage;
 import com.hongte.weixin.message.resp.Article;
 import com.hongte.weixin.message.resp.MusicMessage;
 import com.hongte.weixin.message.resp.NewsMessage;
+import com.hongte.weixin.message.resp.TextMessage;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.core.util.QuickWriter;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
